@@ -55,6 +55,7 @@ header .navbar .nav-links button,
     background: rgb(139, 3, 3);
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
 }
 
 .presentation .img-presentation{
