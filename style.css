@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background: #08114d;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    margin: 10px;
+}
+
+header .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+header .navbar .nav-links{
+    margin-right: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+
+header .navbar .nav-links a{
+    padding: 5px;
+}
+
+header .logo img{
+    height: 50px;
+    width: 100px;
+    margin-top: 0;
+}
+
+.presentation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+header .navbar .nav-links button,
+.presentation .text-presentation button{
+    border: 1px solid rgb(139, 3, 3);
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 7px;
+    background: rgb(139, 3, 3);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.presentation .img-presentation{
+    margin-right: 140px;
+    margin-top: 25px;
+}
+
+.presentation .img-presentation img{
+    height: 520px;
+    width: 220px;
+}
+
+.presentation .text-presentation{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.presentation .text-presentation h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+.presentation .text-presentation h1 span{
+    color: rgb(139, 3, 3);
+}
+
+.presentation .text-presentation h3{
+    margin-top: 20px;
+    line-height: 40px;
+    font-family: 'Ubuntu', sans-serif;    
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.presentation .text-presentation h3 span{
+    color: rgb(139, 3, 3);
+}
+
+.presentation button{
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+footer h3{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;    
+    font-size: small;
+}
