@@ -35,7 +35,7 @@ header .navbar .nav-links a{
 header .logo img{
     height: 50px;
     width: 100px;
-    margin-top: 0;
+    margin: 0;
 }
 
 .presentation{
@@ -48,14 +48,13 @@ header .logo img{
 
 header .navbar .nav-links button,
 .presentation .text-presentation button{
-    border: 1px solid rgb(139, 3, 3);
+    border: 1px solid red;
     border-radius: 30px;
     font-size: 25px;
     padding: 7px;
-    background: rgb(139, 3, 3);
+    background: red;
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    cursor: pointer;
 }
 
 .presentation .img-presentation{
@@ -80,7 +79,7 @@ header .navbar .nav-links button,
 }
 
 .presentation .text-presentation h1 span{
-    color: rgb(139, 3, 3);
+    color: red;
 }
 
 .presentation .text-presentation h3{
@@ -92,7 +91,7 @@ header .navbar .nav-links button,
 }
 
 .presentation .text-presentation h3 span{
-    color: rgb(139, 3, 3);
+    color: red;
 }
 
 .presentation button{
@@ -100,8 +99,17 @@ header .navbar .nav-links button,
     font-weight: bold;
 }
 
+button{
+    padding: 10px;
+}
+
 footer h3{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;    
     font-size: small;
+    word-spacing: 4px;
+}
+
+footer span{
+    color: red;
 }
